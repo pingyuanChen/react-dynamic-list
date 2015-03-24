@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #43599a), color-stop(1, #051954)); }
+
+.ui-list-head {
+  border-top: 1px solid #7c8991;
+  border-bottom: 1px solid #7c8991;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #98a5af), color-stop(1, #b6bdc3)); }
