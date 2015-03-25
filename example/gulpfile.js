@@ -17,7 +17,7 @@ gulp.task('sass', ['clean'], function(){
 
 gulp.task('browserify', ['clean'], function(){
   browserify(['./src/index.js'])
-    .transform(reactify, {debug:true})
+    .transform(reactify)
     .bundle()
     .pipe(source('bundle.js'))
     .pipe(gulp.dest('./build/'));

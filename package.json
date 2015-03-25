@@ -1,10 +1,10 @@
 {
-  "name": "react-list",
-  "version": "0.1.0",
+  "name": "react-dynamic-list",
+  "version": "0.1.2",
   "author": "pychen",
-  "description": "",
+  "description": "React list component with dynamic data.",
   "main": "lib/List.js",
-  "repository": "https://github.com/pingyuanChen/react-list.git",
+  "repository": "https://github.com/pingyuanChen/react-dynamic-list.git",
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,10 +12,12 @@
   "keywords": [
     "react",
     "react-component",
+    "react-list",
+    "react-dynamic-list",
     "react list component",
     "react dynamic list"
   ],
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "lodash": "^3.5.0",
     "react": "^0.13.1"
