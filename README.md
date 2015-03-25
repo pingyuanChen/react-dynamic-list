@@ -6,7 +6,6 @@
 ```
 npm install react-dynamic-list --save
 ```
-`notice`: please make sure install gulp and browserify globally, because this component is designed for cmd style.
 
 ## Usage
 `List` takes six props, only the data and adapter are required, the others are optional.
