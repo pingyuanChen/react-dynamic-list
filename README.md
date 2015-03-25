@@ -29,5 +29,7 @@ React.render(
 ```
 To get completed example, you can see example folder.
 
+### Demo
+![Demo](https://github.com/pingyuanChen/react-dynamic-list/blob/master/react-list.png)
 
 ## FAQ
