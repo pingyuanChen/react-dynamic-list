@@ -30,7 +30,7 @@ gulp.task('copy', ['clean'], function(){
 
 gulp.task('watch', function(){
   gulp.watch(['./src/*.scss'], sass);
-  gulp.watch(['./src/*.js', './views/*.js'], browserify);
+  gulp.watch(['./src/*.js', './lib/*.js'], browserify);
 });
 
 gulp.task('default', ['watch', 'sass', 'browserify', 'copy']);

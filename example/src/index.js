@@ -1,5 +1,5 @@
 var React = require('React');
-var List = require('../../views/List');
+var List = require('../../lib/List');
 
 
 var data = [
