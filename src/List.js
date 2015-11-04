@@ -39,8 +39,8 @@ module.exports = React.createClass({
   render: function(){
     var listItems,
       props = this.props;
-    if(this.props.adapter.type == 'group'){
-      listItems = this.props.data.map(function(item, i){
+    if(props.adapter && props.adapter.type == 'group'){
+      listItems = props.data.map(function(item, i){
         return (
           <ListGroup
             {...props}
@@ -49,7 +49,8 @@ module.exports = React.createClass({
         );
       });
     }else{
-      listItems = this.props.data.map(function(item, i){
+      //adapter: plain
+      listItems = props.data.map(function(item, i){
         return (
           <ListRow
             {...props}
