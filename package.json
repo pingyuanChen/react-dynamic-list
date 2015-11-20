@@ -1,6 +1,6 @@
 {
   "name": "react-dynamic-list",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "author": "pychen",
   "description": "React list component with dynamic data.",
   "main": "lib/List.js",

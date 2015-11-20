@@ -13,6 +13,7 @@ module.exports = React.createClass({
       return (
           <ListRow
             {...props}
+            key={i}
             groupIndex={props.groupIndex}
             rowIndex={i}
             rowItem={item} />

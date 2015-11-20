@@ -44,6 +44,7 @@ module.exports = React.createClass({
         return (
           <ListGroup
             {...props}
+            key={i}
             groupIndex={i}
             groupItem={item} />
         );
@@ -54,6 +55,7 @@ module.exports = React.createClass({
         return (
           <ListRow
             {...props}
+            key={i}
             groupIndex={0}
             rowIndex={i}
             rowItem={item} />
