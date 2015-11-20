@@ -1,6 +1,6 @@
-var React = require('react');
+var React     = require('react');
 var ListGroup = require('./ListGroup');
-var ListRow = require('./ListRow');
+var ListRow   = require('./ListRow');
 
 module.exports = React.createClass({
   propTypes: {
@@ -61,7 +61,7 @@ module.exports = React.createClass({
     }
 
     return (
-      <div className='ui-list'>
+      <div className='ui-list' ref="uiList">
         {listItems}
       </div>
     );

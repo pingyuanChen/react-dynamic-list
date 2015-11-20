@@ -1,4 +1,4 @@
-var React = require('React');
+var ReactDOM = require('react-dom');
 var List = require('../../lib/List');
 
 
@@ -90,7 +90,7 @@ var createRowDom = function(position, data){
   };
 
 
-React.render(
+ReactDOM.render(
   <List
     data={data}
     adapter={adapter} />,
